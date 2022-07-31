@@ -39,14 +39,14 @@ public class StoryDataAdapter extends BaseAdapter {
     int []stories = {
             R.string.story1,
             R.string.story2,
-            R.string.story3,
-            R.string.story4,
-            R.string.story5,
-            R.string.story6,
-            R.string.story7,
-            R.string.story8,
-            R.string.story9,
-            R.string.story10,
+//            R.string.story3,
+//            R.string.story4,
+//            R.string.story5,
+//            R.string.story6,
+//            R.string.story7,
+//            R.string.story8,
+//            R.string.story9,
+//            R.string.story10,
     };
 
 }
