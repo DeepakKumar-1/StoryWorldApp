@@ -51,10 +51,8 @@ public class TellStory extends AppCompatActivity implements TextToSpeech.OnInitL
 
 
     private void speak() {
-        String words = txt_view.getText().toString();
-        textToSpeech.speak(words,TextToSpeech.QUEUE_FLUSH,null);
-
-
+            String words = txt_view.getText().toString();
+            textToSpeech.speak(text,TextToSpeech.QUEUE_FLUSH,null,null);
 
     }
 }
