@@ -8,14 +8,14 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
 
-public class GridView_ extends AppCompatActivity {
+public class Stories extends AppCompatActivity {
 
     GridView grid_view;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_grid_view);
+        setContentView(R.layout.activity_stories);
 
         grid_view = findViewById(R.id.grid_view);
 

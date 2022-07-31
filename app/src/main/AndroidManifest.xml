@@ -16,7 +16,7 @@
             android:name=".TellStory"
             android:exported="false" />
         <activity
-            android:name=".GridView_"
+            android:name=".Stories"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,9 +24,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Story"
-            android:exported="false" />
         <activity
             android:name=".Splash"
             android:exported="false" />
