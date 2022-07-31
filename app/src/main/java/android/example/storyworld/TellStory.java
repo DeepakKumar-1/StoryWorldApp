@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 public class TellStory extends AppCompatActivity implements TextToSpeech.OnInitListener{
     TextToSpeech textToSpeech;
-    Button listen;
+    ImageView listen;
     TextView txt_view;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     android:layout_margin="20dp"
     tools:context=".TellStory">
+
 
     <ImageView
         android:id="@+id/image_view"
@@ -18,23 +19,27 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="291dp">
+        android:layout_height="291dp"
+        android:background="@drawable/text_view_border">
 
         <TextView
             android:id="@+id/txt_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            android:padding="20dp"
+            />
     </ScrollView>
 
-    <Button
-        android:layout_marginTop="20dp"
+    <ImageView
         android:id="@+id/listen"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="75dp"
+        android:layout_height="61dp"
         android:layout_gravity="center"
-        android:text="Listen"/>
+        android:layout_marginTop="20dp"
+        android:src="@drawable/play_circle"
+        android:text="Listen" />
 
 
-</LinearLayout>
+</ScrollView>
