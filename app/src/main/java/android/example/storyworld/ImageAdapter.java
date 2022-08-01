@@ -59,6 +59,17 @@ public class ImageAdapter extends BaseAdapter {
             R.drawable.h,
             R.drawable.i,
             R.drawable.j,
+            R.drawable.k,
+            R.drawable.l,
+            R.drawable.m,
+            R.drawable.n,
+            R.drawable.o,
+            R.drawable.p,
+            R.drawable.q,
+            R.drawable.r,
+            R.drawable.s,
+            R.drawable.t,
+            R.drawable.u,
 
     };
 }
